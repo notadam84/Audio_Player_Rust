@@ -1,0 +1,7 @@
+[package]
+name = "audio_player"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rodio = { version = "0.20", features = ["mp3", "wav"] }
